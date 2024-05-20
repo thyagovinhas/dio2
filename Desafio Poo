@@ -33,7 +33,7 @@ public class Main {
         Dev dev1 = new Dev();
         dev1.setNome("Tiago");
         dev1.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Kelvya:" + dev1.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Tiago:" + dev1.getConteudosInscritos());
         dev1.progredir();
         dev1.progredir();
         System.out.println("--");
