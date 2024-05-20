@@ -7,12 +7,12 @@ public class Main {
         Curso curso1 = new Curso();
         curso1.setTitulo("Curso Java");
         curso1.setDescricao("Exemplo de descrição do curso Java");
-        curso1.setCargaHoraria(8);
+        curso1.setCargaHoraria(10);
 
         Curso curso2 = new Curso();
         curso2.setTitulo("Curso JavaScript");
         curso2.setDescricao("Exemplo de descrição do curso JavaScript");
-        curso2.setCargaHoraria(4);
+        curso2.setCargaHoraria(16);
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
@@ -36,12 +36,12 @@ public class Main {
         System.out.println("Conteúdos Inscritos Tiago:" + dev1.getConteudosInscritos());
         dev1.progredir();
         dev1.progredir();
-        System.out.println("--");
+        System.out.println(" ");
         System.out.println("Conteúdos Inscritos Tiago:" + dev1.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Tiago:" + dev1.getConteudosConcluidos());
         System.out.println("XP:" + dev1.calcularTotalXp());
 
-        System.out.println("------------");
+        System.out.println(" ");
 
         Dev dev2 = new Dev();
         dev2.setNome("Joao");
@@ -50,7 +50,7 @@ public class Main {
         dev2.progredir();
         dev2.progredir();
         dev2.progredir();
-        System.out.println("--");
+        System.out.println(" ");
         System.out.println("Conteúdos Inscritos Joao:" + dev2.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Joao:" + dev2.getConteudosConcluidos());
         System.out.println("XP:" + dev2.calcularTotalXp());
